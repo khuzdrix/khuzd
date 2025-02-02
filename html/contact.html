@@ -7,18 +7,18 @@
     <!--Basic HTML Meta Tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Page du blog de khuzd"/>
+    <meta name="description" content="Page contact du site de khuzd"/>
     <meta name="subject" content="Mon site perso">
     <meta name="language" content="fr">
     <meta name="author" content="Khuzd, khuzdrixl@gmmail.com">
 
     <!--OpenGraph Meta Tags-->
     <meta name="og:title" content="Khuzd"/>
-    <meta name="og:type" content="Page du blog de khuzd"/>
+    <meta name="og:type" content="Page contact de khuzd"/>
     <meta name="og:url" content="https://khuzdrix.github.io/khuzd/"/>
     <meta name="og:image" content="img/index_img/khuzd.jpg"/>
     <meta name="og:site_name" content="Khuzd"/>
-    <meta name="og:description" content="Blog de khuzd"/>
+    <meta name="og:description" content="Page contact du site de khuzd, jeune moussaillon naviguant sur internet."/>
 
     <!--HTML Link Tags-->
     <link rel="shortcut icon" type="image/ico" href="/img/index_img/khuzd.jpg" />
@@ -59,21 +59,38 @@
 
     <main>
         <article>
-
-            <header>
-                <h2>Voici les derniers articles que j'ai pu écrire</h2>
-            </header>
-
             <section>
-                <h3>Premier article </h3>
-                <p>Présentation du premier article.</p>
+                <h2>Page Contact</h2>
+                <p><em>Une question ? Une amélioration à me proposer ? Envoyer moi un message ! </em></p>
             </section>
 
-                <section>
-                    <h3>Deuxième article</h3>
-                    <p>Présentation du deuxième article. </p>
-                </section>
+            <section>
+                <img src="" alt="Une simple photo d'illustration" >
+            </section>
 
+            <section>
+                <form action="" method="post">
+                    <fieldset>
+
+                        <legend>Renseignements</legend>
+
+                        <label for="name">Entrer votre nom :</label>
+                        <input type="text" name="name" id="name" required/>
+
+                        <label for="courriel">Entrer votre adresse mail :</label>
+                        <input type="email" name="courriel" id="courriel" required />
+                        
+                        <label for="phone">Entrer votre numéro de téléphone :</label>
+                        <input type="tel" name="phone" id="phone">
+
+                        <label for="message_contact">Votre message :</label>
+                        <textarea name="message_contact" id="message_contact"></textarea>
+
+                        <button type="submit">Envoyer le message</button>
+
+                    </fieldset>
+                </form>
+            </section>
         </article>
     </main>
 
