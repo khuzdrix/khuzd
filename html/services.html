@@ -1,46 +1,43 @@
+Voici la version corrigée de votre fichier HTML :
+
+```html name=index.html
 <!DOCTYPE html>
-
-
 <html lang="fr">
-
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes services et sites internet favoris</title>
 
-
     <!-- Basic HTML Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mes services et sites internet favoris"/>
+    <meta name="description" content="Mes services et sites internet favoris" />
     <meta name="subject" content="Services et sites internet favoris">
     <meta name="language" content="fr">
     <meta name="author" content="Khuzd">
 
     <!-- OpenGraph Meta Tags -->
-    <meta property="og:title" content="Khuzd"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://khuzdrix.github.io/khuzd/"/>
-    <meta property="og:image" content="img/index_img/khuzd.jpg"/>
-    <meta property="og:site_name" content="Khuzd"/>
-    <meta property="og:description" content="Mes services et sites internet favoris"/>
+    <meta property="og:title" content="Khuzd" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://khuzdrix.github.io/khuzd/" />
+    <meta property="og:image" content="img/index_img/khuzd.jpg" />
+    <meta property="og:site_name" content="Khuzd" />
+    <meta property="og:description" content="Mes services et sites internet favoris" />
 
     <!-- HTML Link Tags -->
-    <link rel="shortcut icon" type="image/ico" href="img/index_img/khuzd.jpg"/>
+    <link rel="shortcut icon" type="image/ico" href="img/index_img/khuzd.jpg" />
 </head>
-
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WVCZJ6WCV"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-6WVCZJ6WCV');
+    gtag('config', 'G-6WVCZJ6WCV');
 </script>
-
 
 <body>
 
@@ -52,9 +49,10 @@
 
     <nav>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="html/projets.html">Mes Projets</a></li>
-            <li><a href="html/services.html">Mes Services Favoris</a></li>
+            <li><a href="/index.html">Accueil</a></li>
+            <li><a href="/html/projets.html">Mes Projets</a></li>
+            <li><a href="/html/services.html">Mes Services Favoris</a></li>
+
             <!--
             <li><a href="/html/articles.html">Mes Articles</a></li>
             <li><a href="/html/contact.html">Contact</a></li>
@@ -62,20 +60,20 @@
             -->
         </ul>
     </nav>
-    
+
     <hr>
 
     <main>
-        
+
         <section id="introduction_service">
             <article>
                 <h1>Mes services et sites internet favoris</h1>
                 <p>
-                Ces sites internet sont des sites que j'ai trouvés au cours de mes pérégrinations sur le web. Aucun ne me paye pour faire de la publicité.
+                    Ces sites internet sont des sites que j'ai trouvés au cours de mes pérégrinations sur le web. Aucun ne me paye pour faire de la publicité.
                 </p>
             </article>
         </section>
-        
+
         <section id="sommaire">
 
             <h2>Sommaire</h2>
@@ -85,18 +83,18 @@
                 <li><a href="#site_fournisseurs_courriels">Fournisseurs de courriels</a></li>
                 <li><a href="#site_warez">Site de Warez</a></li>
                 <li><a href="#site_finance">Finances</a></li>
-                <li><a href="#site_brico">Sites d'achat de matériel de bricolage ou liés à l'univers de la maintenance.</a></li>                    
+                <li><a href="#site_brico">Sites d'achat de matériel de bricolage ou liés à l'univers de la maintenance.</a></li>
                 <li><a href="#blogs">Blogs</a></li>
                 <li><a href="#site_info_num">Site d'information numériques</a></li>
                 <li><a href="#site_technique">Techniques</a></li>
-                <li><a href="#site_agent_conversationnel">Liste d'agent conersationnel (chatbot) utilisant l'intelligence artificielle générative</a></li>
-                <li><a href="#site_forum">Les forums que j'utilisent.</a></li>
-                <li><a href="#transition_corps">Sélections de Sites/Liens Internet en rapport avec un transition professionnel</a></li>
+                <li><a href="#site_agent_conversationnel">Liste d'agent conversationnel (chatbot) utilisant l'intelligence artificielle générative</a></li>
+                <li><a href="#site_forum">Les forums que j'utilise.</a></li>
+                <li><a href="#transition_corps">Sélections de Sites/Liens Internet en rapport avec une transition professionnelle</a></li>
                 <li><a href="#site_utilitaire">Divers sites de type "utilitaires"</a></li>
                 <li><a href="#site_reno">Sites en lien avec la réno</a></li>
                 <li><a href="#site_lien_auto">Sites en lien avec l'univers de l'automobile</a></li>
                 <li><a href="#site_à_trier">Sites à trier</a></li>
-                <li><a href="#suggestions">Suggestion de Sites</a>
+                <li><a href="#suggestions">Suggestion de Sites</a></li>
             </ul>
         </section>
 
@@ -104,19 +102,18 @@
 
             <article id="site_aide_creation">
                 <h3>Sites m'ayant permis de faire mon premier site ou qui m'aident actuellement</h3>
-            <ul>
-                <li><a target="_blank" href="https://developer.mozilla.org">MDN</a>, Site de référence pour les apprentis développeurs, vous y trouverez des guides et des tutoriels. Foncez !</li>
-                <li><a target="_blank" href="https://fr.w3docs.com/">W3 docs</a> Site concurrent que j'utilise moins que MDN mais que j'ai trouvé dans mes recherches.</li>
-                <li><a target="_blank" href="https://openclassrooms.com/fr/">OPENCLASSROOMS</a> Anciennement le site du zéro, je ne l'utilise pas mais je suis obligé de le partager, car comme beaucoup de personnes, ce site a une valeur sentimentale. Il a permis à de nombreuses personnes de goûter au développement. Il existe une <a href="http://sdz.tdct.org/">version offline</a> qui répertorie les tutoriels mais est-elle à jour ?</li>
-                <li><a href="https://www.freecodecamp.org" target="_blank">freecodecamp</a> est une plateforme d’apprentissage du codage en ligne, entièrement gratuite et accessible à tous. </li>
-                <li><a href="https://www.pexels.com/fr-fr/" target="_blank">Pexels</a> Banque d'image que je compte utiliser.</li>
-                <li><a href="https://cs50.harvard.edu/x/2025/" target="_blank">This is CS50</a>, cours liés à la programation pour les débutants.</li>
-                <li><a href="https://www.codecademy.com/" target="_blank">CodeAcademy</a> Platforme d'aprentissage similaire à Freecodecamp.</li>
-                <li><a href="https://validator.w3.org/" target="_blank">Markup Validation Service</a> Site permettant de valider son HTML selon la norme du W3C</li>
-
-            </ul>
+                <ul>
+                    <li><a target="_blank" href="https://developer.mozilla.org">MDN</a>, Site de référence pour les apprentis développeurs, vous y trouverez des guides et des tutoriels. Foncez !</li>
+                    <li><a target="_blank" href="https://fr.w3docs.com/">W3 docs</a> Site concurrent que j'utilise moins que MDN mais que j'ai trouvé dans mes recherches.</li>
+                    <li><a target="_blank" href="https://openclassrooms.com/fr/">OPENCLASSROOMS</a> Anciennement le site du zéro, je ne l'utilise pas mais je suis obligé de le partager, car comme beaucoup de personnes, ce site a une valeur sentimentale. Il a permis à de nombreuses personnes de goûter au développement. Il existe une <a href="http://sdz.tdct.org/">version offline</a> qui répertorie les tutoriels mais est-elle à jour ?</li>
+                    <li><a href="https://www.freecodecamp.org" target="_blank">freecodecamp</a> est une plateforme d’apprentissage du codage en ligne, entièrement gratuite et accessible à tous.</li>
+                    <li><a href="https://www.pexels.com/fr-fr/" target="_blank">Pexels</a> Banque d'images que je compte utiliser.</li>
+                    <li><a href="https://cs50.harvard.edu/x/2025/" target="_blank">This is CS50</a>, cours liés à la programmation pour les débutants.</li>
+                    <li><a href="https://www.codecademy.com/" target="_blank">CodeAcademy</a> Plateforme d'apprentissage similaire à Freecodecamp.</li>
+                    <li><a href="https://validator.w3.org/" target="_blank">Markup Validation Service</a> Site permettant de valider son HTML selon la norme du W3C.</li>
+                </ul>
             </article>
-        
+
             <article id="site_livre">
                 <h3>Sites internet en lien avec l'univers du livre</h3>
                 <ul>
@@ -127,102 +124,80 @@
             </article>
 
             <article id="site_fournisseurs_courriels">
-                <h3>Fournisseurs de courriels </h3>
+                <h3>Fournisseurs de courriels</h3>
                 <ul>
-                    <li><a target="_blank" href="https://inboxen.org/">Inboxen </a>Fournisseur rapide d'adresse mail "poubelles".</li>
+                    <li><a target="_blank" href="https://inboxen.org/">Inboxen </a>Fournisseur rapide d'adresses mail "poubelles".</li>
                 </ul>
             </article>
 
             <article id="site_warez">
                 <h3>Site de Warez</h3>
-    
                 <section>
                     <h4>Sites répertoriant différents services en lien avec le monde du Warez.</h4>
                     <p>Attention tout de même aux sites donnant des notes et avis pouvant être falsifiés de manière intentionnelle.</p>
-                    <p>
-                        <ul>
-                            <li><a href="https://topsitestreaming.info/" target="_blank">topsitestreaming</a> Site répertoriant des sites de Warez principalement francophones.</li>
-                            <li><a href="https://shakil-shahadat.github.io/awesome-piracy/" target="_blank">Awesome Piracy</a> Site "fourre-tout" regroupant des ressources plutôt anglophones. </li>
-                            <li><a href="https://champagne.pages.dev/" target="_blank">Champagne Piracy Wiki</a> Similaire à awesome-piracy mais peut être mis à jour plus régulièrement. </li>
-                            <li><a href="https://www.reddit.com/r/Piracy/wiki/index/" target="_blank">r/Piracy</a> Le fil Reddit dédié au piratage avec une mention spéciale pour son wiki. </li>
-                        </ul>
-                    </p>
-                </section>
-    
-                <section>
-                    <h4>Streaming Film</h4>
-                <ul>
-                    <li><a target="_blank" href="https://wiflix.promo/">Wiflix </a>Site de streaming de films et séries, au niveau de la qualité on trouve de tout DVDRIP,CAM, TS, 1080p suivant la date de sortie. </li>
-    
-                </ul>
-                </section>
-    
-                <section>
-                    <h4>Streaming Sportif</h4>
-                <ul>
-                    <li><a target="_blank" href="https://www.rojadirectatv.de/">RojaDirectatv </a>Site de streaming d'évenements spotifs (foot, basket tennis etc...) en direct.</li>
-                    <li><a href="https://the.streameast.app/v78" target="_blank">Streameast </a>Site que j'ai trouvé en complément de Roja</li>
-                    <li><a href="https://live.hesgoal-vip.io/" target="_blank">Hesgoal</a> Similaire aux deux précédents.</li>
-                </ul>
-                </section>
-                
-                <section>
-                    <h4>Sites de torrent</h4>
-                    <p>
-                        <ul>
-                            <li><a href="https://www.ygg.re/" target="_blank">yggtorrent</a> Site de torrent de qualité, successeur de feu T411, qui est passé <a href="https://www.phonandroid.com/yggtorrent-le-site-pirate-francais-passe-en-prive-voici-ce-que-ca-va-changer-pour-vous.html">privé</a>.</li>
-                        </ul>
-                    </p>
-                </section>
-    
-            </article>
-    
-            <article id="site_finance">
-    
-                <h3>Finances</h3>
-    
-                <section>
-                    <h4>Forum</h4>
                     <ul>
-                        <li><a target="_blank" href="https://forum.hardware.fr/hfr/Discussions/Viepratique/pognon-epargne-placements-sujet_66515_1.htm">Le topic Finance Perso du site Hfr </a>Forum que j’ai fréquenté (surtout lurké) pendant un long moment qui est un bon point de départ, avec des personnes qui postent leurs plans d’épargne, d’investissement qui peuvent être une source d’inspiration pour débuter. 
-                            Aspect négatif, la « first page » est devenue très complète au fil des contributions de la communauté mais n’est pas du tout adapté aux néophytes.</li>
-                        <li><a target="_blank" href="https://www.investisseurs-heureux.fr/">Investisseur heureux</a> Forum fréquenté par des personnes souhaitant partager sur la thématique de l’investissement patrimonial. Très pointu, il n’est pas malheureusement adapté aux débutants.</li>
+                        <li><a href="https://topsitestreaming.info/" target="_blank">topsitestreaming</a> Site répertoriant des sites de Warez principalement francophones.</li>
+                        <li><a href="https://shakil-shahadat.github.io/awesome-piracy/" target="_blank">Awesome Piracy</a> Site "fourre-tout" regroupant des ressources plutôt anglophones.</li>
+                        <li><a href="https://champagne.pages.dev/" target="_blank">Champagne Piracy Wiki</a> Similaire à awesome-piracy mais peut être mis à jour plus régulièrement.</li>
+                        <li><a href="https://www.reddit.com/r/Piracy/wiki/index/" target="_blank">r/Piracy</a> Le fil Reddit dédié au piratage avec une mention spéciale pour son wiki.</li>
                     </ul>
                 </section>
                 <section>
-
-                    <h4>Chaine Youtube</h4>
-
-                    <p>
-                        <ul>
-                            <li><a target="_blank" href="https://www.youtube.com/@SecretMillionairesClub">Warren Buffett's Secret Millionaires Club </a>Qui ne connaît pas Warren BUFFET ? Cet investisseur de légende, sur qui on a beaucoup écrit, fait des vidéos prêter beaucoup de citation qui sont pour la plupart des fausses nouvelles. Si vous vous voulez des conseils en affaires, de vies par « The Oracle of Omaha », foncez !</li>
-                            <li><a target="_blank"href="https://www.youtube.com/@Hiboo.Expert/videos">Hiboo  </a>est un service de conseil d’investissement qui donne gratuitement certains de leurs conseils sur leur chaine Youtube. </li>
-                            <li>Le site <a target="_blank"href="https://www.zonebourse.com/">ZoneBourse</a> est, je cite, « un site d'information et de services financiers dédié aux investisseurs et aux professionnels de la bourse », site que je n’utilise pas, par contre, ce service édite des vidéos de qualité à retrouver sur sa chaine <a target="_blank" href="https://www.youtube.com/@ZonebourseFR">youtube</a>. Deux séries de vidéos m’ont interpellé ;
-                                <ul>
-                                    <li>La série de Xavier DELMAS, série de vidéos sur l’investissement que l’on peut aussi retrouver en podcast.</li>
-                                    <li>La Chronique Bourse » pour se tenir informé quotidiennement de l’actualité économique.</li>
-                                </ul> 
-                            </li>
-                        </ul>
-                    </p>
+                    <h4>Streaming Film</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://wiflix.promo/">Wiflix </a>Site de streaming de films et séries, au niveau de la qualité on trouve de tout DVDRIP, CAM, TS, 1080p suivant la date de sortie.</li>
+                    </ul>
                 </section>
+                <section>
+                    <h4>Streaming Sportif</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://www.rojadirectatv.de/">RojaDirectatv </a>Site de streaming d'événements sportifs (foot, basket, tennis, etc.) en direct.</li>
+                        <li><a href="https://the.streameast.app/v78" target="_blank">Streameast </a>Site que j'ai trouvé en complément de Roja.</li>
+                        <li><a href="https://live.hesgoal-vip.io/" target="_blank">Hesgoal</a> Similaire aux deux précédents.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Sites de torrent</h4>
+                    <ul>
+                        <li><a href="https://www.ygg.re/" target="_blank">yggtorrent</a> Site de torrent de qualité, successeur de feu T411, qui est passé <a href="https://www.phonandroid.com/yggtorrent-le-site-pirate-francais-passe-en-prive-voici-ce-que-ca-va-changer-pour-vous.html">privé</a>.</li>
+                    </ul>
+                </section>
+            </article>
 
+            <article id="site_finance">
+                <h3>Finances</h3>
+                <section>
+                    <h4>Forum</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://forum.hardware.fr/hfr/Discussions/Viepratique/pognon-epargne-placements-sujet_66515_1.htm">Le topic Finance Perso du site Hfr</a> Forum que j’ai fréquenté (surtout lurké) pendant un long moment qui est un bon point de départ, avec des personnes qui postent leurs plans d’épargne, d’investissement qui peuvent être une source d’inspiration pour débuter. Aspect négatif, la « first page » est devenue très complète au fil des contributions de la communauté mais n’est pas du tout adaptée aux néophytes.</li>
+                        <li><a target="_blank" href="https://www.investisseurs-heureux.fr/">Investisseur heureux</a> Forum fréquenté par des personnes souhaitant partager sur la thématique de l’investissement patrimonial. Très pointu, il n’est malheureusement pas adapté aux débutants.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Chaîne Youtube</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://www.youtube.com/@SecretMillionairesClub">Warren Buffett's Secret Millionaires Club</a> Qui ne connaît pas Warren BUFFET ? Cet investisseur de légende, sur qui on a beaucoup écrit, fait des vidéos prêter beaucoup de citations qui sont pour la plupart des fausses nouvelles. Si vous voulez des conseils en affaires, de vie par « The Oracle of Omaha », foncez !</li>
+                        <li><a target="_blank" href="https://www.youtube.com/@Hiboo.Expert/videos">Hiboo</a> est un service de conseil d’investissement qui donne gratuitement certains de leurs conseils sur leur chaîne Youtube.</li>
+                        <li>Le site <a target="_blank" href="https://www.zonebourse.com/">ZoneBourse</a> est, je cite, « un site d'information et de services financiers dédié aux investisseurs et aux professionnels de la bourse », site que je n’utilise pas, par contre, ce service édite des vidéos de qualité à retrouver sur sa chaîne <a target="_blank" href="https://www.youtube.com/@ZonebourseFR">youtube</a>. Deux séries de vidéos m’ont interpellé :
+                            <ul>
+                                <li>La série de Xavier DELMAS, série de vidéos sur l’investissement que l’on peut aussi retrouver en podcast.</li>
+                                <li>La Chronique Bourse » pour se tenir informé quotidiennement de l’actualité économique.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
                 <section>
                     <h4>Sites Internet</h4>
-                    <p>
-                        <ul>
-                            <li><a target="_blank" href="https://www.morningstar.fr/fr/">Morning Star</a> est une société qui vous donne des informations sur les placements financiers complet mais que j’utilise, à titre personnel, surtout pour ces articles sur la finance perso.</li>
-                            <li><a target="_blank" href="https://www.lafinancepourtous.com/">la finance pour tous</a> est un site ayant pour vocation de je cite « de développer une pédagogie active sur l’ensemble des sujets portant sur les finances personnelles et le décryptage de l’économie. ».
-                                C’est un très bon point de départ pour s’intéresser à la finance perso.</li>
-                            <li><a target="_blank" href="https://www.amf-france.org/fr">L’AMF</a>, espace épargnant. L’Autorité des Marchés Financiers donne, sur son site, de l’information liée aux finances qui est une de ces missions. </li>
-                        </ul>
-                    </p>
+                    <ul>
+                        <li><a target="_blank" href="https://www.morningstar.fr/fr/">Morning Star</a> est une société qui vous donne des informations sur les placements financiers complets mais que j’utilise, à titre personnel, surtout pour ces articles sur la finance perso.</li>
+                        <li><a target="_blank" href="https://www.lafinancepourtous.com/">La finance pour tous</a> est un site ayant pour vocation de je cite « de développer une pédagogie active sur l’ensemble des sujets portant sur les finances personnelles et le décryptage de l’économie. ». C’est un très bon point de départ pour s’intéresser à la finance perso.</li>
+                        <li><a target="_blank" href="https://www.amf-france.org/fr">L’AMF</a>, espace épargnant. L’Autorité des Marchés Financiers donne, sur son site, de l’information liée aux finances qui est une de ces missions.</li>
+                    </ul>
                 </section>
-
                 <section>
                     <h4>Blogs</h4>
                     <ul>
-                        <li><a href="https://scipion8.substack.com/" target="_blank">Scipion</a> Newsletters d'une personne que j'ai découvert via les réseaux sociaux.</li>
+                        <li><a href="https://scipion8.substack.com/" target="_blank">Scipion</a> Newsletters d'une personne que j'ai découverte via les réseaux sociaux.</li>
                     </ul>
                 </section>
             </article>
@@ -230,226 +205,36 @@
             <article id="site_brico">
                 <h3>Sites d'achat de matériel de bricolage ou liés à l'univers de la maintenance.</h3>
                 <ul>
-                    <li><a target="_blank" href="https://www.gotools.de/">GoTools</a> Site allemand qui est trés bien positionnés au niveau des tarif. </li>
-                    <li><a target="_blank" href="https://www.screwfix.fr/" target="_blank">Screwfix</a> Site internet ou j'achètent régulièrement surtout de l'outillage a main</li>
-                    <li><a target="_blank" href="https://www.manomano.fr/" target="_blank">ManoMano</a> Site généraliste, trés connue, que j'utilise pour découvrir des produits que j'achètent  ensuite sur amazon.</li>
-                    <li><a target="_blank"href="https://www.toolstation.fr/" target="_blank">Toolsnation</a> Site trés bien placés niveau tarifs.</li>
-                    <li><a target="_blank"href="https://www.promeca.com/">Promeca</a> Site ou j'ai acheter ma presse venant de chine, il vends des produits liées à l'univers de la maintenance.</li>
-                    <li><a target="_blank" href="https://www.master-outillage.com/">MasterOutillage</a> Site bien placés au niveau des produits Facom.</li>
-                    <li><a href="https://www.mabeo-industries.com/" target="_blank">Mabeo</a> Site concurrent et ou similairee à Promeca.</li>
-                    <li><a href="https://racetools.fr/" target="_blank">Racetools</a> Site similaire à Master outillage, Promeca et consort.</li>
+                    <li><a target="_blank" href="https://www.gotools.de/">GoTools</a> Site allemand qui est très bien positionné au niveau des tarifs.</li>
+                    <li><a target="_blank" href="https://www.screwfix.fr/" target="_blank">Screwfix</a> Site internet où j'achète régulièrement surtout de l'outillage à main.</li>
+                    <li><a target="_blank" href="https://www.manomano.fr/" target="_blank">ManoMano</a> Site généraliste, très connu, que j'utilise pour découvrir des produits que j'achète ensuite sur Amazon.</li>
+                    <li><a target="_blank" href="https://www.toolstation.fr/" target="_blank">Toolstation</a> Site très bien placé niveau tarifs.</li>
+                    <li><a target="_blank" href="https://www.promeca.com/">Promeca</a> Site où j'ai acheté ma presse venant de Chine, il vend des produits liés à l'univers de la maintenance.</li>
+                    <li><a target="_blank" href="https://www.master-outillage.com/">MasterOutillage</a> Site bien placé au niveau des produits Facom.</li>
+                    <li><a href="https://www.mabeo-industries.com/" target="_blank">Mabeo</a> Site concurrent ou similaire à Promeca.</li>
+                    <li><a href="https://racetools.fr/" target="_blank">Racetools</a> Site similaire à MasterOutillage, Promeca et consorts.</li>
                 </ul>
             </article>
 
             <article id="blogs">
                 <h3>Blogs</h3>
                 <ul>
-                    <li><a target="_blank" href="https://lavoiedelepee.blogspot.com/"> La voie de l'épée</a> est un blog tenu par le colonel Goya, militaire et historien, qui analyse l'actualité à travers son oeil militaire.</li>
+                    <li><a target="_blank" href="https://lavoiedelepee.blogspot.com/">La voie de l'épée</a> est un blog tenu par le colonel Goya, militaire et historien, qui analyse l'actualité à travers son oeil militaire.</li>
                 </ul>
             </article>
-    
+
             <article id="site_info_num">
                 <h3>Site d'information numériques</h3>
                 <ul>
                     <li><a href="https://www.tomsguide.fr/" target="_blank">Tom Guide</a> Site d'actualité spécialisé dans le numérique.</li>
-                    <li><a href="https://www.lesnumeriques.com/" target="_blank">Les Numériques</a> Site dont le sujet est principalement la création de comparatif de matériel numériques.</li>
-                    <li><a href="https://www.malekal.com/" target="_blank">Malekal</a> est un forum/site d’aide informatique </li>
+                    <li><a href="https://www.lesnumeriques.com/" target="_blank">Les Numériques</a> Site dont le sujet est principalement la création de comparatifs de matériel numérique.</li>
+                    <li><a href="https://www.malekal.com/" target="_blank">Malekal</a> est un forum/site d’aide informatique.</li>
                 </ul>
             </article>
-    
+
             <article id="site_technique">
                 <h3>Techniques</h3>
                 <section>
                     <h4>Sites techniques</h4>
                     <ul>
-                        <li><a href="https://www.reno-info-maison.com/" target="_blank">Reno info maison/</a>Site en lien avec l'univers du bricolage.</li>
-                        <li><a href="https://www.systemed.fr/" target="_blank">Systeme D</a> Site de bricolage.</li>
-                        <li><a href="https://www.fr.weber/tuto/tuto-weber" target="_blank">Tuto Weber</a>, site de tutoriel en lien avec l'univers de la rénovation de la maison.</li>
-                    </ul>
-                </section>
-                
-                <section>
-                    <h4>Chaine Youtube</h4>
-                    <h5>Chaine youtube spécialisé en Maconnerie</h5>
-                    <ul>
-                        <li><a href="https://www.youtube.com/@AQCTV/videos" target="_blank">L’Agence Qualité Construction </a> La chaine youtube de l'AQC, qui à édité des vidéos conseil sur la maconnerie.</li>
-                        <li><a href="https://www.youtube.com/@BH2M59" target="_blank">Béton Hier et 2 Mains</a> Cette chaine a pour objectif, je cite de "référencer un maximum d’anciens cours vidéos"</li>
-                        <li><a href="https://www.youtube.com/@MBRENOVATION/featured" target="_blank" >MB RENOVATION</a> Vidéos avec comme sujet des astuces en tout genre sur le bricolage.</li>
-                        <li><a href="https://www.youtube.com/@batissonstv8534" target="_blank">Bâtissons TV</a> Chaine youtube spécialisé sur la maconnerie. </li>
-                        <li><a href="https://www.youtube.com/@maconsdu4740" target="_blank">Maçons du 47</a>Chaine yotube d'un artisan maçon.</li>
-                        <li><a href="https://www.youtube.com/@lamaisondagonay4820" target="_blank">La maison DAGONAY </a> Chaîne youtube d'une personne réalisant une maison individuel</li>
-                        <li><a href="https://www.youtube.com/@passionmaconremifusaro" target="_blank">Passion Maçon Rémi Fusaro </a>Professeur d'un cfa vulgarisant la maçonnerie.</li>
-                    </ul>
-                </section>
-
-            </article>
-
-            <article id="site_agent_conversationnel">
-                <h3>Liste d'<a href="https://fr.wikipedia.org/wiki/Chatbot" target="_blank">agent conversationnel (chatbot)</a> utilisant <a href="https://fr.wikipedia.org/wiki/Intelligence_artificielle_g%C3%A9n%C3%A9rative" target="_blank">l'intelligence artificielle générative</a></h3>
-                <ul>
-                    <li><a href="https://www.perplexity.ai" target="_blank" >Perplexity </a> C'est le chatbot que j'utilise régulièrement</li>
-                    <li><a href="https://copilot.microsoft.com/" target="_blank" >Copilot </a>Chatbot propulsé par Microsoft</li>
-                    <li><a href="https://gemini.google.com/app" target="_blank">Gemini </a>Chatbot de Google</li>
-                    <li><a href="https://claude.ai/" target="_blank" >Claude</a> Alternative que je vais essayer dans les prochains mois</li>
-                    <li><a href="https://chatgpt.com/" target="_blank">Chatgpt</a> Y-a-t-il besoin de le présenter ?</li>
-                    <li><a href="https://chat.mistral.ai/chat?q=" target="_blank">Le Chat par Mistral AI</a> Agent conversationnel propulsé par entrprise basé en France.</li>
-                </ul>
-            </article>
-
-            <article id="site_forum">
-
-                <article>
-
-                    <h3>Les forums que j'utilisent.</h3>
-                    <h4>Les forums généraliste</h4>
-                    <p>
-                        <ul>
-                            <li><a href="https://www.reddit.com/" target="_blank">Reddit</a> Site internationale couvrant quasiment tous les sujets.</li>
-                            <li><a href="https://forum.hardware.fr/hfr/Discussions/liste_sujet-1.htm" target="_blank">HFR</a> Forum francophone couvrant l'univers de l'informatiqe en premier lieux mais qui s'est diversifié. </li>
-                        </ul>
-                    </p>
-                </article>
-                <article>
-                    <h4>Forum en lien avec le jeux-vidéo</h4>
-                    <p>
-                        <ul>
-                            <li><a href="https://forum.canardpc.com/" target="_blank">Canard PC</a> Espace de discusion spécialisé dans les jeux-vidéo</li>
-                            <li><a href="https://www.jeuxvideo.com/forums.htm" target="_blank">Jeux-vidéo</a> Le titre je crois est assez explicite.</li>
-                        </ul>
-                    </p>
-                </article>
-                <article>
-                    <h4>Forum en lien avec la finance</h4>
-                    <p>
-                        <ul>
-                            <li><a href="https://www.investisseurs-heureux.fr/" target="_blank">Investisseurs Heureux</a> Une communauté de personnes partageant leur intéret pour la finance personnel.</li>
-                            <li><a href="https://www.dealabs.com/discussions" target="_blank">Dealabs </a> La partie discussion de ce site spécialisé dans les bons plan. </li>
-                        </ul>
-                    </p>
-                </article>
-            </article>
-
-            <article id="transition_corps">
-
-                <h3>Sélections de Sites/Liens Internet en rapport avec un transition professionnel</h3>
-                <ul>
-                    <li><a href="https://www.transitionspro.fr/" target="_blank">Transitions Pro/</a> est un service ayant plusieurs dispositifs pour vous aider dans votre transition.</li>
-                    <li><a href="https://www.service-public.fr/particuliers/vosdroits/F32457" target="_blank">Conseil en évolution professionnelle (CEP)</a>, lien vers une explication du Conseiller en évolution professionnel par le service public. </li>
-                    <li><a href="https://www.francetravail.fr/accueil/" target="_blank">France Travail</a>, (ancienement Pole emploi), qui mieux que ce service public peur vous conseiller ? </li>
-                    <li><a href="https://www.emploi-store.fr/portail/accueil" target="_blank">Emploi Store</a> Une sélection de sites web et applications mobiles dédiés à votre projet professionnel et à votre recherche d’emploi.</li>
-            
-                </ul>
-
-            </article>
-
-            <article id="site_utilitaire">
-                <h3> Divers sites de type "utilitaires"</h3>
-                <ul>
-                    <li><a href="https://www.scribens.fr/" target="_blank"> Scribens</a> Site de corrections d'orthographe</li>
-                    <li><a href="https://alternativeto.net/" target="_blank">Alternativeto</a> est un service essayant de vous donner d'autre choix de logiciel à utiliser dans votre vie numérique.</li>
-                    <li><a href="https://www.opensourcealternative.to/" target="_blank">Opensourcealternative</a> similaire à Alternativeto mais ne proposent que des alternatives Opensources</li>
-                    <li><a href="https://dictionnaire.lerobert.com/" target="_blank">Dictionnaire Le Robert</a> Ai-je vraiment besoin de le présenter ?</li>
-                    <li><a href="https://downforeveryoneorjustme.com/" target="_blank"> Down for every one or just me</a> Site trés pratique pour savoir si un site auquel vous essayer d'acéder est bloqué par votre fournisseur internet ou simplement hors-ligne.</li>
-            </article>
-
-            <article id="site_reno">
-                <h3>Sites en lien avec la réno</h3>
-                <ul>
-                    <li><a href="https://www.proreno.fr/" target="_blank"> Pro reno</a> Site technique en lien avec la rénovation énergétique</li>
-                </ul>
-            </article>
-
-            <article id="site_lien_auto">
-                <h3>Sites en lien avec l'univers de l'automobile</h3>
-                <ul>
-                    <li><a href="https://www.auto-doc.fr/" target="_blank"> Auto-doc</a> Sites "discount" de ventes de pièces détachés, attention un gros warning sur les retours qui sont ultra-compliqués.</li>
-                    <li><a href="https://www.piecesauto24.com/" target="_blank"> Piecesauto24</a> Site similaire qui apartient à Auto-doc, un peu moins cher j'ai l'impression, je n'ai pas testés les retours chez eux. </li>
-                    <li><a href="https://www.oscaro.com/" target="_blank">Oscaro</a> Site de ventes de pièces détachés célèbre mais qui je trouve mets beaucoup de temps à livrer</li>
-                    <li><a href="https://www.mister-auto.com/">Mister Auto</a>Similaire à Oscaro</li>
-                    <li><a href="https://www.opisto.fr/" target="_blank">Opîsto</a> Site de ventes de pièces d'ocasion, qui mets en relation les casses automobiles et les particuliers, je n'ai encore jamais eu de soucis avec eux.</li>
-                    <li><a href="https://www.123pneus.fr/" target="_blank">123pneus</a> Dans mrs favoris pas eu le temps de les tester</li>
-                    <li><a href="https://www.pneus-online.fr/" target="_blank">Pneus-online</a> La même chose que 123 Pneus.</li>
-                </ul>
-            </article>
-
-            <article id="site_à_trier">
-                <h3>Sites à trier</h3>
-                <ul>
-                    
-                    
-                    <li><a href="https://www.indiehackers.com/" target="_blank">Indie Hackers</a> est un site dédié à l'entrepeurnariat sur le web</li>
-                    <li><a href="https://www.justgeek.fr/">Just Geek</a></li>
-                    <li><a href="https://www.e-genieclimatique.com/" target="_blank">E-GenieClimatique </a></li>
-                    <li><a href="https://www.chess.com/fr" target="_blank">Chess.com </a></li>
-                    <li><a href="https://www.leguideduchauffage.com/" target="_blank">Le guide du chauffage</a></li>
-                    <li><a href="https://schema-electrique.net/" target="_blank">Schema-Electrique.net</a></li>
-                    <li><a href="https://www.xpair.com/" target="_blank">Xpair </a></li>
-                    <li><a href="https://getpocket.com/about" target="_blank">Pocket</a></li>
-                    <li><a href="https://www.nhp-motoculture.fr/" target="_blank">NHP Motoculture</a></li>
-                    <li><a href="https://code-agri.fr/" target="_blank">Code-Agri</a></li>
-                    <li><a href="https://sdn-distrib.com/" target="_blank">SDN Distrib</a></li>
-                    <li><a href="https://www.spliiit.com/fr" target="_blank">Spliiit</a></li>
-                    <li><a href="https://www.cafeyn.co/fr/offers?return=homepage" target="_blank">Cafeyn</a></li>
-                    <li><a href="https://learn.microsoft.com/fr-fr/windows/powertoys/" target="_blank">PowerToys</a></li>
-                    <li><a href="https://ninite.com/" target="_blank">Ninite</a></li>
-                    <li><a href="https://secnumacademie.gouv.fr/" target="_blank">Secnumacademie</a></li>
-                    <li><a href="https://www.bleepingcomputer.com/">BleepingComputer.com</a></li>
-                    <li><a href="https://www.my-mooc.com/fr/">My Mooc</a></li>
-                    <li><a href="https://trello.com/">Trello</a></li>
-                    <li><a href="https://knowyourmeme.com/">Knowyourmeme</a></li>
-                    <li><a href="https://stackoverflow.com/" target="_blank">Stackoverflow</a></li>
-                    <li><a href="https://www.livres-forums-construction.fr/forums/">https://www.livres-forums-construction.fr/forums/</a></li>
-                    <li><a href="https://travaux.obat.fr/guides/">https://travaux.obat.fr/guides/</a></li>
-                    <li><a href="http://www.forum-maconnerie.com/">http://www.forum-maconnerie.com/</a></li>
-                    <li><a href="https://www.forumbricolage.fr/forum/forum-travaux-renovation">https://www.forumbricolage.fr/forum/forum-travaux-renovation</a></li>
-                    <li><a href="https://www.lilibricole.com/">https://www.lilibricole.com/</a></li>
-                    <li><a href="https://www.assotravaux.fr/sur-quels-sites-web-trouver-des-inspiration-pour-bricolage-et-travaux/">https://www.assotravaux.fr/sur-quels-sites-web-trouver-des-inspiration-pour-bricolage-et-travaux/</a></li>
-                    
-    
-                </ul>
-            </article>
-
-            <article id="suggestions">
-            <h3>Suggestion</h3>
-            <p>
-                Vous avez de meilleurs sites à me proposer ? Envoyer-moi une suggestion !
-            </p>
-
-            <form action="https://formspree.io/f/mwpvzapw" method="POST">
-
-                <ul>
-                    <li>
-                        <label for="pseudo">Pseudo</label>
-                        <input type="text" id="pseudo" name="pseudo" required>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <label for="couriel">Couriel</label>
-                        <input type="email" name="couriel" id="couriel" required>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <label for="adresse_sites_amelioration"> Adresse du site à ajouter</label>
-                        <input type="url" name="adresse_sites_amelioration" id="adresse_sites_amelioration" required>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <label for="commentaire">Commentaires</label>
-                        <textarea name="commentaire" id="commentaire" required></textarea>
-                    </li>
-                </ul>
-
-                <button type="submit">Envoyer</button>
-            </form>
-            </article>
-        </section>
-
-    </main>
-</body>
-</html>
+                        <li><a href="https://www.
